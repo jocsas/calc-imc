@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Modelo</title>
+  <title>Calculadora de IMC</title>
   <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head> 
 
 <body>
 
@@ -16,13 +17,15 @@
 
     <form action="/" id="form">
       <label for="weight">Peso</label>
-      <input type="text" id="weight" class="weight" >
+      <input type="text" id="weight" class="weight" placeholder="Ex: 80">
       <label for="height">Altura</label>
-      <input type="text" id="height" class="height" >
+      <input type="text" id="height" class="height" placeholder="Ex: 1.8">
       <button type="submit">Calcular</button>
+      
     </form>
 
     <span id="result"></span>
+    <p class="credits">Desenvolvido por <a href="https://github.com/jocsas" target="_blank">@jocsas</a></p>
   </section>
 
   <script src="./assets/js/main.js"></script>
