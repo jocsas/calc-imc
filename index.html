@@ -12,13 +12,17 @@
 <body>
 
   <section class="container">
-    <h1>Lorem ipsum dolor sit amet</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Repellendus nisi explicabo saepe voluptatibus consequuntur et corporis
-      maxime quos, doloribus vitae voluptatum quisquam necessitatibus
-      pariatur veritatis exercitationem beatae officiis suscipit Ea!
-    </p>
+    <h1>Calculadora de IMC</h1>
+
+    <form action="/" id="form">
+      <label for="weight">Peso</label>
+      <input type="text" id="weight" class="weight" >
+      <label for="height">Altura</label>
+      <input type="text" id="height" class="height" >
+      <button type="submit">Calcular</button>
+    </form>
+
+    <span id="result"></span>
   </section>
 
   <script src="./assets/js/main.js"></script>
